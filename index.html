@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Family History Archive</title>
+    <style>
+        /* Timeless, elegant font and layout styling */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fcfaf2; /* Soft warm vintage cream */
+            color: #2b2b2a; /* Deep charcoal text for easy reading */
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3d342e; /* Deep heritage brown */
+            color: #fbf9f3;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-style: italic;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        nav {
+            background-color: #52473f;
+            text-align: center;
+            padding: 0.5rem;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #fcfaf2;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            font-size: 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        .welcome-section {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        .welcome-section h2 {
+            font-size: 2rem;
+            color: #3d342e;
+            border-bottom: 1px solid #d4cbb3;
+            padding-bottom: 1rem;
+            display: inline-block;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #e6dfcc;
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-3px);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #3d342e;
+            font-size: 1.4rem;
+        }
+        footer {
+            text-align: center;
+            padding: 3rem;
+            margin-top: 5rem;
+            font-size: 0.9rem;
+            color: #70685c;
+            border-top: 1px solid #e6dfcc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Family History Archive</h1>
+        <p>Preserving our stories, records, and lineage for generations to come.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#tree">Family Tree</a>
+        <a href="#stories">Biographies</a>
+        <a href="#photos">Photo Gallery</a>
+    </nav>
+
+    <div class="container">
+        <section class="welcome-section">
+            <h2>Welcome to Our Living History</h2>
+            <p>This archive serves as a permanent home for our family's collective memory. Inside, you will find historical documents, deeply researched biographies, heirloom photographs, and our expanding family tree. This site is built to endure, ensuring future generations always know where they came from.</p>
+        </section>
+
+        <section id="latest">
+            <h2 style="color: #3d342e; border-bottom: 1px solid #d4cbb3; padding-bottom: 0.5rem;">Explore the Archive</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Interactive Family Tree</h3>
+                    <p>Trace our lineage across centuries. View our digital pedigree charts, maternal lines, and paternal lines stretching back through history.</p>
+                </div>
+                <div class="card">
+                    <h3>Ancestor Biographies</h3>
+                    <p>Read the fully documented life stories, military records, migration paths, and personal histories of our departed loved ones.</p>
+                </div>
+                <div class="card">
+                    <h3>Historical Photo Gallery</h3>
+                    <p>Browse our digital preservation vault featuring restored family portraits, scanned letters, and historical heirlooms.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&ldquo;To be forgotten is to die twice.&rdquo; &mdash; Permanent Family Vault</p>
+    </footer>
+
+</body>
+</html>
